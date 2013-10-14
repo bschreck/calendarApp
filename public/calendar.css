@@ -87,7 +87,8 @@ color: rgb(153,153,153);
   min-height: 200px;
 }
 
-#front-hero-unit #page-content p,a {
+
+#front-hero-unit #page-content p,a, li {
   color: #000000;
 }
 

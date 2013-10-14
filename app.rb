@@ -1,6 +1,22 @@
 require 'sinatra'
 require 'sinatra/base'
+require 'sinatra/activerecord'
 require 'stripe'
+
+##db = URI.parse('postgres://user:pass@localhost/dbname')
+#db = URI.parse(ENV['DATABASE_URL'])
+
+#ActiveRecord::Base.establish_connection(
+  #:adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
+  #:host     => db.host,
+  #:username => db.user,
+  #:password => db.password,
+  #:database => db.path[1..-1],
+  #:encoding => 'utf8'
+#)
+
+#class User < ActiveRecord::Base
+#end
 
 class MyApp < Sinatra::Base
   configure :development, :test do
