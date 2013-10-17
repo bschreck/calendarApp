@@ -96,6 +96,12 @@ color: rgb(153,153,153);
   color: #000000;
 }
 
+#galleria {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn-primary {
   color: rgb(204,204,204);
   background-color: #000000;
