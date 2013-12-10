@@ -5,3 +5,4 @@ gem 'stripe', '~> 1.8.7'
 gem 'pg'
 gem "activerecord"
 gem "sinatra-activerecord"
+gem "httparty"
