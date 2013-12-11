@@ -65,7 +65,7 @@ class MyApp < Sinatra::Base
 
   post '/charge' do
     # Amount in cents
-    @amount = 1500
+    @amount = 1200
     customer = Stripe::Customer.create(
       :email => params[:email],
       :card  => params[:stripeToken]
